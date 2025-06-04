@@ -1,0 +1,118 @@
+*TREES*
+-> Def: Acyclic graph is a tree or trees are subset of graph.
+-> Trees belongs to non lenear data structures. Data or node can be added at any point.
+-> Tree is a customise data structure and the customisation requierd we need to create a node and that node contain
+   data as well as in left and right pointer.
+
+Q: Why trees are required?
+-> We want to get output in log(n) time complexity.
+
+-> The starting node will call it as a root node and rest of the nodes will call as child node and the base nodes will call it as a leaf node.
+
+*Type of Trees*
+
+N-array trees:                Binary tree: 
+-tries                        -Binary search tree, 
+                              -AVL tree
+                              -RED flag tree
+                              -Segment tree
+
+*Binary tree:- 
+->The root node contain at max two child nodes
+
+->There are three more types of tree:-
+-Complete Binary tree
+-Full Binary tree
+-Perfect Binary tree
+
+
+*Perfect Binary tree:-
+->Every level should be filled and every node contains two child nodes.
+
+*Full Binary tree:-
+->Every level should have two or no nodes.
+
+*Complete Binary tree:-
+->Every level should be filled and it should start with left to right.
+
+
+*Tree Traversal:-
+
+DFS:
+
+BFS:
+
+
+->Every node is a root node 
+
+*Height and Diameter of a Tree:-
+
+-> Height of Tree: The longest path of the tree = Max(All_paths).
+-> Diameter of Tree: The formula is = (height_of_left_tree + height_of_right_tree) + 1
+
+*Balance Tree:-
+->Height of left tree 
+
+*Problem: Kth largest element 
+To solve this problem we are using priority que
+Step1: Keep on pushing the element to que(MAAX que). 
+If number of elements is grater than A we have to pop.
+As we keep on pushing the to que as we taken MAX que the elements will aranged in decending order. At the end of the iteration my target value will be floted 
+
+*Binary Search Tree(BST):-
+ The tree might squed then eventualy the subject of elements will give O(n).Then the complete complexity of tree is best case.
+                    5
+                  /   \
+               3         8
+             /   \      /  \
+           2      4    6    9 
+->We have to create a tree 
+
+Pre_order :     Root      Left      Right
+In_order  :     Left      Root      Right
+Post_order:     Left      Right     Root
+
+->Stacks are used for DFS
+->Ques are used for BFS
+
+*AVL Tree:-
+Wenever tree got unbalenced using AVL tree method the tree will be balenced 
+There are four cases:
+Case1: LeftLeft
+Case2: RightRight
+Case3: LeftRight
+Case4: RightLeft
+
+->Acording to the case we have to do left rotate and right rotate.
+
+*Segment Tree:-
+
+
+
+
+*N array Tree:-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
+
+
+
+
+
+
+
